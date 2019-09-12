@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    escpos (0.0.10)
+    escpos-image (0.0.10)
+      escpos (>= 0.0.9)
+    ffi (1.11.1)
+    libusb (0.6.4)
+      ffi (~> 1.0)
+      mini_portile2 (~> 2.1)
+    mini_portile2 (2.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  escpos
+  escpos-image
+  libusb
+
+RUBY VERSION
+   ruby 2.5.3p105
+
+BUNDLED WITH
+   2.0.2
